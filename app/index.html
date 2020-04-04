@@ -7,58 +7,108 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Unity_2</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/icomoon.css".css">
   <script src="https://kit.fontawesome.com/164b56f10c.js"></script>
 </head>
 
 <body>
   <!---=== HEADER ===--->
   <header class="header container-outer">
-    <div class="container-inner">
-      <div class="header__header">
-        <div class="header__logo">
-          <a href="#" class="header__logo-link">unity</a>
-        </div>
-        <div class="header__humburger">XXXX
-          <!--!!! 42*22-->===
-        </div>
+    <div class="header__inner container-inner">
+      <div class="header__logo">
+        <a href="#" class="header__logo-link">unity</a>
       </div>
+      <div class="header__burger-icon header__burger-icon--open"></div>
     </div>
   </header>
   <!---=== /HEADER ===--->
   <!---=== MAIN ===--->
   <!-----=MAIN-INTRO-SECTION=----->
   <section class="intro container-outer">
-      <div class="container-inner intro-inner">
+    <div class="container-inner intro-inner">
 
-        <ul class="intro__socials">
-          <!--!!!! FA icons 20*20  margin 30px-->
-          <li class="intro__socials-link">tw</li>
-          <li class="intro__socials-link">fb</li>
-          <li class="intro__socials-link">inst</li>
-          <li class="intro__socials-link">yuotb</li>
-        </ul>
-        <h1 class="intro__title">it started with an idea</h1>
-        <div class="intro__video-controls intro-video__controls">
-          <button class="intro-video__play-btn" id="intro-play">ж</button>
-          <!--!!!!!rheu 28*28 кнопка 10*15-->
-          <label for="intro-play">watch intro video</label>
-        </div>
-        <a href="#" class="intro__btn">discover</a>
+      <ul class="intro__socials">
+        <!--!!!! FA icons 20*20  margin 30px-->
+        <li class="intro__socials-item"><a class="intro__socials-link"><span class="icon-twitter"></span></a></li>
+        <li class="intro__socials-item"><a class="intro__socials-link"><span class="icon-facebook"></span></a></li>
+        <li class="intro__socials-item"><a class="intro__socials-link"><span class="icon-instagram"></span></a></li>
+        <li class="intro__socials-item"><a class="intro__socials-link"><span class="icon-youtube"></span></a></li>
+      </ul>
+      <h1 class="intro__title">it started with an idea</h1>
+      <div class="intro__video-controls">
+        <button class="intro__video-play-btn" id="intro-play"><span class="icon-play3 intro__video-play-icon"></span></button>
+        <!--!!!!!rheu 28*28 кнопка 10*15 -->
+        <label class="intro__video-btn-label"for="intro-play">watch intro video</label>
       </div>
+      <a href="#" class="intro__btn">discover</a>
+    </div>
     </div>
   </section>
-  
 
-  <!-----=MAIN-INTRO-SECTION=----->
+
+  <!-----=/MAIN-INTRO-SECTION=----->
+
+  <!-----=MAIN-SERVICES-SECTION=----->
+  <section class="services container-outer">
+    <div class="container-inner">
+      <div class="services__text-slider">
+        <div class="services__text-slide-wrapper">
+          <div class="services__text-slide services-text-slider__slide">
+            <div class="services-text-slider__top">services</div>
+            <h2 class="services-text-slider__title section-title section-title--left">We bring a
+              wonderful <span class="accented-orange">artistic</span> sense to project</h2>
+            <p class="services-text-slider__subtitle section-subtitle section-subtitle--left">Our passion is to create
+              solutions
+              which could give that extra value to your product, service or to business in general.</p>
+          </div>
+        </div>
+        <div class="services__text-slide-wrapper">
+          <div class="services__text-slide services-text-slider__slide">
+            <div class="services-text-slider__top">services</div>
+            <h2 class="services-text-slider__title section-title section-title--left">We bring a
+              wonderful <span class="accented-orange">artistic</span> sense to project
+            </h2>
+            <p class="services-text-slider__subtitle section-subtitle section-subtitle--left">Our passion is to create
+              solutions
+              which could give that extra value to your product, service or to business in general.</p>
+          </div>
+        </div>
+        <div class="services__text-slide-wrapper">
+          <div class="services__text-slide services-text-slider__slide">
+            <div class="services-text-slider__top">services</div>
+            <h2 class="services-text-slider__title section-title section-title--left">We bring a
+              wonderful <span class="accented-orange">artistic</span> sense to project</h2>
+            <p class="services-text-slider__subtitle section-subtitle section-subtitle--left">Our passion is to create
+              solutions
+              which could give that extra value to your product, service or to business in general.</p>
+          </div>
+        </div>
+      </div>
+      <!--!!!!wrapper posr-->
+      <div class="services__img-slider">
+        <div class="services__img-slide">
+          <img src="img/services-macbook.png" alt="our services" class="services__img-slide-image">
+        </div>
+        <div class="services__img-slide">
+          <img src="img/services-macbook.png" alt="our services" class="services__img-slide-image">
+        </div>
+        <div class="services__img-slide">
+          <img src="img/services-macbook.png" alt="our services" class="services__img-slide-image">
+        </div>
+        <!-- img slider-arrows-->
+
+      </div>
+      <img src="img/services-left-arrow.png" alt="" class="services__img-slider--arrow-left">
+    </div>
+  </section>
+  <!-----=MAIN-SERVICES-SECTION=----->
 
   <!-----=MAIN-ABOUT-SECTION=----->
-
-  <!--!!!! ABOUT-->
   <section class="about container-outer">
     <div class="container-inner">
       <div class="about__main-slider">
         <div class="about__main-slide">
-          <h2 class="about__title section-title section-title--about">designer & <span class="caps">coder</span>
+          <h2 class="about__title section-title section-title--left">designer & <span class="caps">coder</span>
             </h1>
             <p class="about__text">Hello, World! I am a freelance graphic designer and website developer
               who provides full-service website management and WordPress specialization. I recently provided
@@ -69,7 +119,7 @@
             </div>
         </div>
         <div class="about__main-slide">
-          <h2 class="about__title section-title section-title--about">designer & <span class="caps">coder</span>>
+          <h2 class="about__title section-title section-title--left">designer & <span class="caps">coder</span>>
             </h1>
             <p class="about__text">Hello, World! I am a freelance graphic designer and website developer
               who provides full-service website management and WordPress specialization. I recently provided
@@ -80,7 +130,7 @@
             </div>
         </div>
         <div class="about__main-slide">
-          <h2 class="about__title section-title section-title--about">designer & <span class="caps">coder</span>
+          <h2 class="about__title section-title section-title--left">designer & <span class="caps">coder</span>
             </h1>
             <p class="about__text">Hello, World! I am a freelance graphic designer and website developer
               who provides full-service website management and WordPress specialization. I recently provided
@@ -252,9 +302,10 @@
       <!-----=/MAIN-TESTIMONIALS=----->
       <!-----=MAIN-PARTNERS-SECTION=----->
       <section class="partners">
-        <div class="partners__clients-row">
+        <!--!!!!!!!   img overflow-->
+        <!-- <div class="partners__clients-row">
           <img src="img/partners-clients.png" alt="our clients" class="partners__clients-img">
-        </div>
+        </div> -->
 
         <div class="partners__logos-row">
           <img src="img/partners-logos.png" alt="our partners" class="partners__logos-img">
@@ -265,6 +316,7 @@
   <!---=== /MAIN ===--->
 
   <!---=== FOOTER ===--->
+  footer.footer
   <!---=== /FOOTER ===--->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

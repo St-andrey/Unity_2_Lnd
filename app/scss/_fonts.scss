@@ -1,1 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url(../fonts/gotham_bold/Gotham-Bold.woff) format("woff"),
+       url(../fonts/gotham_bold/Gotham-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
