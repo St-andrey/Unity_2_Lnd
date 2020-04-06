@@ -38,9 +38,7 @@ $(function () {
         draggable: true,
         infinite: true,
         asNavFor: '.about__controls-slider',
-        // prevArrow: ('.about-slider__arrow--top'),
-        // nextArrow: ('.about-slider__arrow--down'),
-
+        
     })
 
     $('.about__controls-slider').slick({
