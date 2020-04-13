@@ -6,12 +6,7 @@ $(function () {
         arrows: false,
         slidesToShow: 1,
         infinite: true,
-        // vertical: true,//?????
         asNavFor: '.services__img-slider',
-
-        // prevArrow: ('.about__controls-slider--arrow--up'),
-        // nextArrow: ('.about__controls-slider--arrow--down'),
-
     })
 
     $('.services__img-slider').slick({
@@ -20,11 +15,7 @@ $(function () {
         slidesToShow: 1,
         infinite: true,
         //!!! right-to-left
-        // vertical: true,//?????
         asNavFor: '.services__text-slider',
-
-        prevArrow: ('.services__img-slider--arrow-left'),
-        nextArrow: ('.services__img-slider--arrow-right'),
 
     })
 
@@ -35,7 +26,7 @@ $(function () {
         arrows: false,
         slidesToShow: 1,
         vertical: true,
-        draggable: true,
+        
         infinite: true,
         asNavFor: '.about__controls-slider',
         
@@ -46,6 +37,7 @@ $(function () {
         arrows: true,
         slidesToShow: 3,
         vertical: true,
+        draggable: true,
         centerMode: true,
         infinite: true,
         asNavFor: '.about__main-slider',
